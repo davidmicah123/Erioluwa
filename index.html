@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/solid.css">
+    <title>ERIOLUWA</title>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="sidebr_content">
+            <h2><a href="#nav" id="link1">Main</a></h2>
+            <h2><a href="#pictures" id="link2">Pictures</a></h2>
+            <h2><a href="#footer" id="link3">Footer</a></h2>
+        </div>
+    </div>
+    <div id="sidebar_toggler"><i class="fas fa-shopping-cart"></i></div>
+    <nav id="nav">
+            <h1>Happy Birthday <br> ERIOLUWA</h1>
+    </nav>
+    <main id="main">
+        <div class="main_grid">
+            <div class="main_img_wrapper">
+                <img src="ER/er3.jpg" alt="" class="mj_pic">
+            </div>
+            <div class="Mj_description">
+                <p>
+                    Happy Birthday to you friend, its been about 3 years since we've been friends. Today is your birthday and i am writing this to you to wish you an Happy Birthday, long life and prosperity in good health.
+                </p>
+                <p>
+                    Remember back then the first day we saw eachother, i didn't know you guys were coming till i saw your a day before and he told us that you guys would be coming the following day, i was kindof supprised...
+                </p>
+                <p>
+                    And the following day came and i was so scared that i and my friends could not eat on the dinng table until you guys finished eating, remember how shy i was that day, that was because of the fact that i did not know ealier thet you guys would be coming and also due to the fact that i am short. lol .....
+                </p>
+                <p>
+                    remember our long chats on messanger before my other facebook account was desabled, remember our siblings graduation, they were really cool, though i was also shy that day but i just had it in mind to talk to you.
+                </p>
+                <p>
+                    i'd like to list some things i know about you. Name: Erioluwa, Age: 14, Bestfriend: Goodluck, Best color: Pink, Phone: iphone [Boss Lady], Height: 5.2ft, favourite food: Rice, Favourite Footballer: Ronaldo, Behaviour around friends: [shy but tries to hide it], Longest social media chat with: ME; 
+                </p>
+                <p id="pictures">
+                    I sent this link to you alone, just want you to remember good times and feel happy. I listed 10 questions above, 10 marks for each, send me my result over 100% on whatsapp, i hope i'd get up to 80% and I really hope you have a really cool day and enjoy yourself... bye.
+                </p>
+            </div>
+
+            <!-- <img src="ER/work3.jpg" alt="" class="fixed1"> -->
+        </div>
+        
+        <div class="attributes">
+               <div class="stock_image">
+                   <div class="flex_row1">
+                       <img src="ER/er4.jpg" alt="" class="stock_flex_img">
+                       <img src="ER/er1.jpg" alt="" class="stock_flex_img">
+                   </div>
+                   <div class="flex_row">
+                    <img src="ER/er2.jpg" alt="" class="stock_flex_img">
+                    <img src="ER/work3.jpg" alt="" class="stock_flex_img">
+                       <img src="ER/er7.jpg" alt="" class="stock_flex_img">
+                   </div>
+                   <div class="flex_row1">
+                       <img src="ER/er3.jpg" alt="" class="stock_flex_img">
+                       <img src="ER/er8.jpg" alt="" class="stock_flex_img">
+                   </div>
+               </div>
+        </div>
+        <section class="testimonial">
+            <div class="testimonial_grid">
+                <div class="testimonial_card">
+                    <img src="ER/IMG-20210313-WA0016.jpg" alt="" class="testimonial_img">
+                    <div  class="testimonial_txt">
+                        <blockquote>
+                            Hi, Today is your birthday and some days ago i decided to make this small webpage for you as a birthday present, its cool being friend's with you, Happy birthday friend.
+                        </blockquote>
+                        <div class="testimonial_btn_parent"><button class="view_now">View now</button></div>
+                    </div>
+                </div>
+                <div class="testimonial_card display_none">
+                    <img src="ER/IMG-20210313-WA0016.jpg" alt="" class="testimonial_img">
+                    <div  class="testimonial_txt">
+                        <blockquote>
+                            Hi, Today is your birthday and some days ago i decided to make this small webpage for you as a birthday present, its cool being friend's with you, happy birthday friend.
+                        </blockquote>
+                        <div class="testimonial_btn_parent"><button class="view_now">View now</button></div>
+                    </div>
+                </div>
+                <div class="testimonial_card display_none">
+                    <img src="ER/IMG-20210313-WA0016.jpg" alt="" class="testimonial_img">
+                    <div  class="testimonial_txt">
+                        <blockquote>
+                            Hi, Today is your birthday and some days ago i decided to make this small webpage for you as a birthday present, its cool being friend's with you, happy birthday friend.
+                        </blockquote>
+                        <div class="testimonial_btn_parent"><button class="view_now">View now</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <h3>Made by David Micah-Daniels</h3>
+    </footer>
+
+    <!-- <audio autoplay loop>
+        <source src="Lil Nas X - THATS WHAT I WANT.mp3" type="audio/mp3">
+    </audio> -->
+
+    <script>
+        let sidebar = document.getElementById('sidebar');
+        sidebar.style.display="none";
+        let sidebar_toggler = document.getElementById('sidebar_toggler');
+        sidebar_toggler.addEventListener('click', 
+            () => {
+                if (sidebar.style.display == "none") {
+                    sidebar.style.display="block";
+                }else{
+                    sidebar.style.display="none";
+                }
+            }
+        );
+        let link1 = document.getElementById('link1');
+        let link2 = document.getElementById('link2');
+        let link3 = document.getElementById('link3');
+        link1.addEventListener('click', 
+            () => {
+                sidebar.style.display="none"
+             }
+        );
+        link2.addEventListener('click', 
+            () => {
+                sidebar.style.display="none"
+             }
+        );
+        link3.addEventListener('click', 
+            () => {
+                sidebar.style.display="none"
+             }
+        );
+    </script>
+</body>
+</html>
